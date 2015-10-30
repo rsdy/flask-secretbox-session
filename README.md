@@ -7,6 +7,12 @@ Flask-SecretBox-Session is a drop-in replacement for the default Flask session s
 Usage
 -----
 
+From the virtualenv, run
+
+    pip install flask-secretbox-session
+
+Then in your flask application, add 
+
     from secretbox_session import SecretboxCookieSessionInterface
     app.session_interface = SecretboxCookieSessionInterface()
 
